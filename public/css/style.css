@@ -1,0 +1,520 @@
+.navbar-inner {
+  background:transparent;
+}
+
+body {
+  background-color: #0a3d62;
+  background-image: url("../img/africa_fpo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+h2 {
+  font-family: "phoreuscherokee",serif;
+  font-size: 24px;
+  letter-spacing: 0px;
+  font-weight: 900;
+  color: #fff;
+  line-height: -1;
+  text-align: left;
+} 
+
+h4 {
+  font-family: "phoreuscherokee",serif;
+  font-size: 13px;
+  letter-spacing: 0px;
+  font-weight: 900;
+  color: #fff;
+  
+} 
+
+p {
+  font-family: "phoreuscherokee",serif;
+  font-size: 13px;
+  line-height: 1.8;
+  font-weight: regular;
+  letter-spacing: 0px;
+  color: #fff;
+
+
+}
+
+.pLeft {
+  font-family: "phoreuscherokee",serif;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: regular;
+  letter-spacing: 0px;
+  color: #fff;
+  text-align: left;
+
+
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: #60a3bc
+}
+
+.slides-navigation {
+  z-index: 9;
+  text-align: center;
+
+}
+
+.slides-navigation .prev, 
+.slides-navigation .next {
+  width: 47px;
+  height: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9;
+
+}
+
+.slides-navigation a.prev {
+  left: 16px;
+  /* background-image: url(../img/icons8-hand-left-16.png); */
+
+}
+
+.slides-navigation a.next {
+  right: 16px;
+  /* background-image: url(img/img/icons8-hand-left-16.png); */
+}
+
+.titleMessage {
+  position: absolute;
+  width: 100%;
+  top: 33%;
+  z-index: 8;
+  text-align: center;
+  /* margin-left: 25%; */
+
+}
+
+.titleMessage .heading p {
+  color: #fff;
+    /* text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); */
+}
+
+.titleMessage .heading .name {
+  font-family: "phoreuscherokee",serif;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.titleMessage .heading .sub {
+  font-family: "phoreuscherokee",serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+
+}
+
+.section {
+  padding: 100px 0;
+  justify-content: center;
+
+
+}
+
+.aboutImage {
+  max-width: 100%;
+
+}
+
+.skillsSection {
+  background-color: #0d2242;
+  padding: 0 0 0 0;
+
+}
+
+.statsSection {
+  background-color: #496ca1;
+  padding: 10 0 10 0;
+
+}
+
+.contactSection {
+  background-color: #fff;
+  padding: 0 0 0 0;
+
+}
+
+.contact-button {
+  font-family: "phoreuscherokee",serif;
+  background-color: #79d7ff;
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.contact-button:hover {
+  text-decoration: none;
+  color: #333;
+  background-color: #210f4d;
+}
+
+.skill {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.chart {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  margin-left: 25px;
+  text-align: center;
+
+}
+
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+
+.chart .percent {
+  color: #333;
+  line-height: 152px;
+  display: inline-block;
+  font-family: "phoreuscherokee",serif;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.chart .percent:after {
+  content: "%";
+}
+
+.squareItem {
+  content: "%";
+  margin-top: 60;
+  padding: 50px 15px ;
+  position: relative;
+}
+
+.squareInnercontainer {
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #333;
+  border-top: none;
+
+}
+
+.squareInnercontainer:before,
+.squareInnercontainer:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  width: 30%;
+  border: 1px solid #333;
+
+}
+
+.squareInnercontainer:before  {
+  right: 0px
+}
+
+.squareInnercontainer:after  {
+  left: 0px
+}
+
+.squareContent h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+
+}
+
+.squareContent h3 {
+  font-family: "phoreuscherokee",serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+  margin: 0;
+}
+.squareIcon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #333;
+}
+
+.h2Contact {
+  font-family: "phoreuscherokee",serif;
+  font-size: 24px;
+  letter-spacing: 0px;
+  font-weight: 900;
+  color: #333;
+  line-height: -1;
+  text-align: center;
+} 
+
+.portfolio {
+  color: #fff;
+  font-size: 56px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #333;
+}
+.h2Portfolio {
+  font-family: "phoreuscherokee",serif;
+  font-size: 24px;
+  letter-spacing: 0px;
+  font-weight: 900;
+  color: #fff;
+  line-height: -1;
+  text-align: center;
+
+} 
+
+.filter {
+  left:-100px;
+
+} 
+
+.filter a {
+  color: fff;
+  border: 1px 
+  solid #fff;
+  font-family: "phoreuscherokee",serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+
+
+} 
+
+.filter li {
+  display: inline-block;
+  padding: 18px 10;
+  margin: 5px;
+
+}
+
+.filter .current {
+  background-color: #FFC312;
+  border-color: #FFC312;
+  color: #333;
+  text-decoration: none;
+
+}
+
+.filter {
+  text-align: left;
+  width: 100%;
+  
+}
+
+.items li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.itemsContainer {
+  width: 100%;
+  padding: 30px;
+}
+
+
+.items li img {
+	width: 100%;
+	-webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.items .item {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.items .icons {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 0px;
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  margin: -15px auto 0 -47px;
+  text-align: center; 
+  z-index: 3;
+}
+
+.items .icons a {
+  color: #fff;
+  font-size: 20px;
+  /* margin-top: 9px; */
+
+}
+
+
+.items a {
+	width: 40px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    /* background-color: #FFC312; */
+
+
+    -webkit-transition: all 0.2s linear, 0.1s;
+    -moz-transition: all 0.2s linear, 0.1s;
+    -o-transition: all 0.2s linear, 0.1s;
+    -ms-transition: all 0.2s linear, 0.1s;
+    -transition: all 0.2s linear, 0.1s;
+
+}
+
+.items .imageOverlay {
+	width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+
+    -webkit-transition: all 0.2s linear, .5s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.items .item:hover .imageOverlay {
+	opacity: 1;
+}
+
+.items .openButton {
+	float: left;
+	left: -200px;
+}
+
+.items .projectLink {
+	float: right;
+	right: -200px;
+}
+
+.items .item:hover .openButton {
+	left: 0px;
+}
+
+.items .item:hover .projectLink {
+	right: 0px;
+}
+
+.items .item:hover img {
+	-webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -transform: scale(1.05, 1.05);
+}
+
+.items .item:hover .imageOverlay {
+	opacity: 1;
+}
+
+.items .openButton {
+  float: left;
+  left: -200px;
+}
+
+.items .projectLink {
+  float: right;
+  right: -200px;
+
+}
+
+.items .item:hover.openButton {
+  left: 0px;
+
+}
+
+.items .item:hover.projectLink {
+  right: 0px;
+
+}
+
+.items {
+padding: 0;
+
+
+}
+
+.copyrightSection {
+  font-family: "phoreuscherokee",serif;
+	background-color: #000;
+	color: #fff;
+	padding: 30px 5px;
+}
+
+.copyrightSectionA {
+  font-family: "phoreuscherokee",serif;
+  color: #fff;
+  margin: 0;
+  padding: 1px 1px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.copyrightSectionA:hover { 
+  color: #ffda79;
+  text-decoration: none;
+}
+.portIcon {
+  vertical-align: text-top;
+}
+
+.navbar {
+  font-family: "phoreuscherokee",serif;
+  color: #fff;
+  background-color: #08162a;
+  padding: 20px 10px;
+  z-index: 100;
+
+}
+
+.navbar a {
+  font-family: "phoreuscherokee",serif;
+  color: #fff;
+  z-index: 100;
+
+}
+
+.navbar-toggler-icon {
+  color: #333;
+  z-index: 100;
+  background: url(../img/burger.png);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

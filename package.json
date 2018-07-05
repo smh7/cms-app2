@@ -1,0 +1,30 @@
+{
+  "name": "cms-app2",
+  "version": "1.0.0",
+  "description": "content management system and associated site using express, nodejs, sequelize, mySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smh7/cms-app2.git"
+  },
+  "keywords": [],
+  "author": "Libris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smh7/cms-app2/issues"
+  },
+  "homepage": "https://github.com/smh7/cms-app2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jwt-decode": "^2.2.0",
+    "jwt-express": "^1.1.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0"
+  }
+}
