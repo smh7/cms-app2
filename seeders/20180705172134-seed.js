@@ -20,7 +20,7 @@ module.exports = {
       list_group2: "a fine and fitting",
       list_group3: "point"
     }], {}),
-
+  },
 
   down: (queryInterface, Sequelize) => {
     /*

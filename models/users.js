@@ -1,9 +1,10 @@
 'use strict';
+const env = process.env.NODE_ENV || "development";
 const config = require(__dirname + "/../config/config.json")[env];
 const crypto = require('crypto');
 
 module.exports = (sequelize, DataTypes) => {
-  var Users = sequelize.define('Users', {
+  var users = sequelize.define('Users', {
     username: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -35,11 +36,11 @@ module.exports = (sequelize, DataTypes) => {
     }
 });
 
-Users.prototype.validPassword = function(password) {
+users.prototype.validPassword = function(password) {
   return new Promise((resolve, reject) => {
     let hash = crypto.pbkdf2Sync(password, config.tokenSecret, 1000, 64, `sha512`).toString(`hex`);
     resolve((hash === this.password)? true : false);
   });
 };
-  return Users;
+  return users;
 };

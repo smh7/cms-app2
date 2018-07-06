@@ -4,7 +4,6 @@ const keys = require("./keys");
 const jwt = require('jwt-express');
 const env = process.env.NODE_ENV || "development";
 const config = require(`${__dirname}/config/config.json`)[env];
-
 const PORT = process.env.PORT || 3000;
 const db = require("./models");
 const app = express();
