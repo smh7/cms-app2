@@ -38,16 +38,16 @@
           <p class="font-weight-bold">Provided you have signed up, please login for access to CMS</p>
             <form id="login-form" name="login-input" action="/user/login" method="POST">
                 <div class="form-group">
-                  <label for="InputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <label for="InputEmail1">Email address or email address</label>
+                  <input type="text" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email" name="email">
                   <small id="emailHelp" class="form-text text-muted">Please enter email address used during Sign up</small>
                 </div>
                 <div class="form-group">
                   <label for="InputPassword1">Password</label>
-                  <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+                  <input type="password" class="form-control" id="InputPassword1" placeholder="Password" name="password">
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" id="submit-login">Submit</button>
               </form>
         </div>
       </div>
